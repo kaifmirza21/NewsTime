@@ -3,7 +3,7 @@ import React from 'react'
 function NewsContainer(props) {
     
     function FetchNews(){
-        var api_key="Enter your API KEY";
+        var api_key=5d793f9184fb4c96863a0f249ee333b4;
         var url=`https://newsapi.org/v2/top-headlines?country=in&${api_key}&category=${props.category}`;
     
         fetch(url).then((response) => {
