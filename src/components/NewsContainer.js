@@ -122,15 +122,11 @@ function NewsContainer(props) {
             <div className="news-body">
                 <h2 className="news-body-heading">NewsTime : Top Headlines  </h2>
                 <div className="container" id="cd-cont">
-                    
                 </div>
             </div>
         </main>
         </>
     );
 }
-
-
-
 
 export default NewsContainer;

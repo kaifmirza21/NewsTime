@@ -14,7 +14,7 @@ function App() {
     <Router>
         <Navbar/>
         <Routes>
-          <Route  path="/" element={<NewsContainer category="general"/>} />
+          <Route  path="/NewsTime" element={<NewsContainer category="general"/>} />
           <Route  path="/home" element={<NewsContainer category="general"/>} />
           <Route  path="/general" element={<NewsContainer category="general"/>} />
           <Route  path="/science" element={<NewsContainer category="science"/>} />
